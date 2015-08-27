@@ -3,21 +3,10 @@ body {
 	color: black;
 	text-align:left
 
-	
 }
 
 
-.bar{
-position:relative;
-height:1px;
-width: 455px;
-left: 30px;
-top: -15px;
-
-background-color: white;
-}
-
-h2{
+h1{
 top: 20px;
 margin-left: 30px;
 letter-spacing: 2px;
@@ -32,7 +21,7 @@ text-decoration: none;
 }
 
 a:visited{
-color:gray;
+color:black;
 }
 
 a:hover{
