@@ -3,8 +3,43 @@ body {
     background-color: white;
 }
 
+
+a {
+    font-style: normal;
+    color: #666666;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: blue;
+}
+
+
+a:hover {
+    color: blue;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+a:active {
+    font-size: 30px;
+    color: blue;
+}
+
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+}
+
+
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
