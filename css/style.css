@@ -7,7 +7,7 @@ body {
 
 h1{
 	top: 50px;
-	margin-left: 80px;
+	margin-left: 0px;
 	letter-spacing: 3px;
 	font-size: 50;
 	font-weight: bold;
@@ -23,12 +23,15 @@ ul{
 	font-size: 15;
 	font-weight: bold ;
 	color: ffffff;
+	list-style: none;
+    margin: 0;
+    padding: 0;
 	
 }
 
 .special {
 	color: black;
-	margin-left: 50px;
+	margin-left: 0px;
 	font-weight: normal;
 	font-size: 10;
 }
