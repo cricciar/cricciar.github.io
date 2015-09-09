@@ -77,7 +77,7 @@ body {
 }
 
 a:visited {
-    color: blue;
+    color: #7bbcff;
 }
 
 p {
@@ -85,7 +85,7 @@ p {
 }
 
 a:hover {
-    color: 7bbcff;
+    color: #7bbcff;
     font-style: normal;
     font-weight: bold;
 }
@@ -98,7 +98,7 @@ small {
 
 a:active {
     font-size: 30px;
-    color: blue;
+    color: #7bbcff;
 }
 
 ul {
