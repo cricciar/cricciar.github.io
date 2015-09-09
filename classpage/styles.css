@@ -40,7 +40,7 @@ body {
 
 #sidebar {
     float: left;
-    width:250px;
+    width:230px;
     margin:  0 auto -60px;
     background: #242424;
     color: white;
@@ -49,13 +49,14 @@ body {
     padding-bottom: 15px;
     padding-top: 10px;
     min-height: 100%;
-    height: auto !important;
-    height: 100%;
+    height: auto ;
     flex-grow: 0;
 }
 
 #footer {
+    font-family: "Helvetica, Arial", sans-serif;
     height: 60px;
+    margin:0;
 }
 
 #post-date {
