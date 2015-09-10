@@ -1,4 +1,12 @@
-* { padding: 0; margin: 0; }
+html, body { padding: 0; margin: 0; }
+
+/* position fixed allows blocks to scroll with page, position absolute 
+keep block in absolute position. position relative works in combination 
+with position absolute to position an element within another element.
+Always remember that you can dicate left, top, right, and bottom position.
+Also, display inline allows for responsive column and block design. */
+
+
 
 html, body {
   height: 100%;
@@ -7,20 +15,20 @@ html, body {
   flex-direction: column;
 }
 
-body > * {
-  flex-shrink: 0;
-}
 
 body {
-    font-family: "Helvetica, Arial", sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     background-color: white;
+    margin: 0;
+    padding: 0;
+    padding: 5px;
+    font-weight: thin;
 }
 
 #wrap {
     width:900px;
     margin:0 auto;
     background: white;
-    font-family: "Helvetica, Arial", sans-serif;
     background-color: white
 }
 
@@ -30,7 +38,6 @@ body {
     width:600px;
     margin:0;
     background: white;
-    font-family: "Helvetica, Arial", sans-serif;
     font-style: normal;
     color: black;
     text-decoration: none;
@@ -49,11 +56,9 @@ body {
     padding-top: 10px;
     min-height: 100%;
     height: auto ;
-    flex-grow: 0;
 }
 
 #footer {
-    font-family: "Helvetica, Arial", sans-serif;
     height: 60px;
     margin:0;
     float: left;
@@ -94,9 +99,6 @@ h2 {
     padding-bottom: 4px;
 }
 
-body {
-    margin: 5;
-}
 
 a:visited {
     color: #7bbcff;
@@ -127,11 +129,12 @@ a:active {
 
 ul {
     list-style: none;
-    margin: 0px;
-    padding-top: 5;
-    padding-bottom: 5;
     text-decoration: none;
     color: white;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 
@@ -143,4 +146,5 @@ li {
     text-decoration: none;
     color: white;
     padding-top: 5;
+    margin: 0;
 }
