@@ -25,31 +25,26 @@ body {
     font-weight: thin;
 }
 
-#wrap {
-    width:900px;
-    margin:0 auto;
-    background: white;
-    background-color: white
-}
-
-
-#main {
-    float: left;
+.posts {
+    position: relative;
+    top: 10;
+    left: 250px;
     width:600px;
     margin:0;
     background: white;
     font-style: normal;
     color: black;
     text-decoration: none;
-    padding-left: 20;
 }
 
-#sidebar {
-    float: left;
+
+.sidebar {
     width:230px;
-    margin:  0 auto -60px;
+    margin:  0 auto;
     background: #242424;
     color: white;
+    position: fixed;
+    left: 0px;
     padding-left: 15px;
     padding-right: 0px;
     padding-bottom: 15px;
@@ -58,30 +53,21 @@ body {
     height: auto ;
 }
 
-#footer {
-    height: 60px;
-    margin:0;
-    float: left;
-}
 
-#post-date {
+.post-date {
     padding-top: 5px;
     font-size: 10px;
 }
 
-
-h4 {
-    border: 5px solid black;
-    font-size: 24;
-    padding: 5;
-    margin: 0;
+.posts h1 {
+    border: solid;
+    padding-left: 5px;
 }
 
-a {
-    font-family: "Helvetica, Arial", sans-serif;
-    font-style: normal;
-    color: #f4f4f4;
-    text-decoration: none;
+
+.sidebar h1 {
+    font-size: 30px;
+    font-weight: normal;
 }
 
 post-date {
@@ -97,6 +83,14 @@ h2 {
     margin: 0;
     padding-top: 5px;
     padding-bottom: 4px;
+    font-size: 20px;
+}
+
+
+a {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #f4f4f4;
+    text-decoration: none;
 }
 
 
@@ -104,15 +98,24 @@ a:visited {
     color: #7bbcff;
 }
 
-p {
-    margin: 0;
-}
 
 a:hover {
     color: #7bbcff;
     font-style: normal;
     font-weight: bold;
 }
+
+
+a:active {
+    font-size: 30px;
+    color: #7bbcff;
+}
+
+
+p {
+    margin: 0;
+}
+
 
 small {
     margin-top: 10px;
@@ -122,14 +125,11 @@ small {
     color: grey;
 }
 
-a:active {
-    font-size: 30px;
-    color: #7bbcff;
-}
 
 ul {
+    font-weight: thin;
+    font-size: 13px;
     list-style: none;
-    text-decoration: none;
     color: white;
     margin: 0;
     padding: 0;
@@ -143,7 +143,6 @@ li {
     list-style: none;
     margin-left: 0;
     padding: 0;
-    text-decoration: none;
     color: white;
     padding-top: 5;
     margin: 0;
