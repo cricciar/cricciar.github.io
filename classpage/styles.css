@@ -122,8 +122,13 @@ a:visited {
 
 a:hover {
     color: white;
-    text-decoration: underline;
-    font-weight: bold;
+    text-decoration: none;
+    background-color: #65a9ef;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: -14px;
 }
 
 
