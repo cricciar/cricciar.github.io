@@ -6,21 +6,24 @@ with position absolute to position an element within another element.
 Always remember that you can dicate left, top, right, and bottom position.
 Also, display inline allows for responsive column and block design. */
 
+
+
+html, body {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+
 body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: white;
     margin: 0;
     padding: 0;
-    padding: 0px;
+    padding: 5px;
     font-weight: thin;
 }
-
-line {
-    margin-left: 0;
-    margin-right: 800px;
-    color: black;
-}
-
 
 .posts {
     position: relative;
@@ -36,31 +39,18 @@ line {
 
 
 .sidebar {
-    width:210px;
-    margin-top: -50px;
-    background: #3f94ec;
+    width:230px;
+    margin:  0 auto;
+    background: #242424;
     color: white;
     position: fixed;
     left: 0px;
     padding-left: 15px;
     padding-right: 0px;
     padding-bottom: 15px;
-    padding-top: 15px;
+    padding-top: 10px;
+    min-height: 100%;
     height: auto ;
-}
-
-
-.sidebar h1 {
-    margin: -14px 0px 0px -14px;
-    font-size: 30px;
-    font-weight: normal;
-    padding: 13px 4px 15px 14px;
-    background-color: #1e75ce;
-}
-
-
-small {
-    color: #3f94ec;
 }
 
 
@@ -70,27 +60,18 @@ small {
 }
 
 .posts h1 {
-    padding-left: 30px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    border-color: white;
-    background: #65a9ef;
-    color: white;
-    margin-left: 225px;
-    margin-top: -50px;
-    position: fixed;
-    width: 625px;
+    border: solid;
+    padding-left: 5px;
+}
+
+
+.sidebar h1 {
+    font-size: 30px;
     font-weight: normal;
-    font-size: 28px;
 }
 
-.posts {
-    margin-top: 50px;
-}
-
-.post-date {
-    margin: 0px;
-    color: white;
+post-date {
+    margin: 0;
 }
 
 h1 {
@@ -114,13 +95,13 @@ a {
 
 
 a:visited {
-    color: white;
+    color: #7bbcff;
 }
 
 
 a:hover {
-    color: white;
-    text-decoration: underline;
+    color: #7bbcff;
+    font-style: normal;
     font-weight: bold;
 }
 
@@ -166,4 +147,3 @@ li {
     padding-top: 5;
     margin: 0;
 }
-
