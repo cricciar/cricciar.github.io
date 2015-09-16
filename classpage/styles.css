@@ -26,7 +26,7 @@ line {
     position: relative;
     top: 10;
     left: 250px;
-    width:600px;
+    width: auto;
     margin:0;
     background: white;
     font-style: normal;
@@ -79,13 +79,13 @@ small {
     margin-left: 225px;
     margin-top: -50px;
     position: fixed;
-    width: 625px;
+    width: 100%;
     font-weight: normal;
     font-size: 28px;
 }
 
 .posts {
-    margin-top: 50px;
+    margin-top: 50px
 }
 
 .post-date {
