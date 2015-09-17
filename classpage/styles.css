@@ -36,6 +36,9 @@ line {
     text-decoration: none;
 }
 
+code {
+    color: blue;
+}
 
 .sidebar {
     width:210px;
