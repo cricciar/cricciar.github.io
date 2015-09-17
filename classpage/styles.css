@@ -150,8 +150,9 @@ a:hover {
 
 
 a:active {
-    font-size: 30px;
-    color: #7bbcff;
+    display: block;
+    color: white;
+    background-color: #1e75ce;
 }
 
 
