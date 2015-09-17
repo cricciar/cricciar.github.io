@@ -12,7 +12,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: white;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     padding: 0px;
     font-weight: thin;
 }
@@ -85,6 +85,11 @@ line {
     font-weight: normal;
     font-size: 28px;
 }
+
+.highlight {
+    color: blue;
+}
+
 
 .posts {
     margin-top: 50px
