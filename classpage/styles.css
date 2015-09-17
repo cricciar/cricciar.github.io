@@ -33,7 +33,9 @@ line {
 
 code {
     color: #1e75ce;
-    padding: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    display: inline-box;
 }
 
 .sidebar {
@@ -99,6 +101,7 @@ code {
     width: 350px;
     border: solid;
     border-color: white;
+    border-width: 15px;
 }
 
 
