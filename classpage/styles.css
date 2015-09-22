@@ -14,22 +14,20 @@ body {
     margin: 0;
 }
 
-line {
-    margin-left: 0;
-    margin-right: 800px;
-    color: black;
-}
-
-
 .posts {
     position: absolute;
     margin-top: 0px;
     margin-left: 250px;
-    padding-top: 10px;
+    padding-top: 0px;
     width: 700px;
     background: white;
     color: black;
-    line-height: 20px;
+    padding-left: 0px;
+}
+
+.posts h2 {
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
 
 code {
@@ -41,21 +39,21 @@ code {
 
 .sidebar {
     width:210px;
-    margin-top: -50px;
+    margin-top: -25px;
     background: #3f94ec;
     color: white;
     position: fixed;
     left: 0px;
     padding-left: 15px;
     padding-right: 0px;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
     padding-top: 15px;
-    height: auto ;
+    height: 520px ;
 }
 
 
 .sidebar h1 {
-    margin: 35px 0px 0px -14px;
+    margin: 10px 0px 0px -14px;
     font-size: 30px;
     font-weight: normal;
     padding: 13px 4px 15px 14px;
@@ -64,7 +62,7 @@ code {
 
 
 .sidebar small {
-    color: #3f94ec;
+    color: white;
 }
 
 
@@ -76,12 +74,12 @@ code {
 .posts h1 {
     padding-left: 30px;
     padding-top: 22px;
-    padding-bottom: 21px;
+    padding-bottom: 14px;
     border-color: white;
     background: #65a9ef;
     color: white;
     margin-left: -25px;
-    margin-top: -60px;
+    margin-top: -55px;
     position: fixed;
     width: 100%;
     font-weight: normal;
@@ -97,6 +95,7 @@ code {
     color: black;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
+    line-height: 20px;
 }
 
 .highlight {
@@ -160,11 +159,6 @@ a:active {
     display: block;
     color: white;
     background-color: #1e75ce;
-}
-
-
-p {
-    margin: 0;
 }
 
 
