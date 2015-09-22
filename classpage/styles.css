@@ -29,6 +29,7 @@ line {
     width: 700px;
     background: white;
     color: black;
+    line-height: 20px;
 }
 
 code {
@@ -74,17 +75,22 @@ code {
 
 .posts h1 {
     padding-left: 30px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 22px;
+    padding-bottom: 21px;
     border-color: white;
     background: #65a9ef;
     color: white;
     margin-left: -25px;
-    margin-top: -61px;
+    margin-top: -60px;
     position: fixed;
     width: 100%;
     font-weight: normal;
     font-size: 28px;
+}
+
+.posts .m {
+    color: blue;
+    font-weight: normal;
 }
 
 .highlight code {
@@ -102,6 +108,7 @@ code {
     border: solid;
     border-color: white;
     border-width: 15px;
+    border-left-width: 0px;
 }
 
 
