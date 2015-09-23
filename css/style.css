@@ -4,21 +4,19 @@ body {
 }
 
 .background {
+	position: fixed;
 	margin-top: 50px;
 	background-color: blue;
 	background-position: center;
 	height: 440px;
 	width: 700px;
 	background-image: url("../Image.gif");
-	overflow: hidden;
-	white-space: nowrap;
-	text-indent: 100%;
 	left: 50%;
-	margin-left: 56px; /* Half of the width */
+	margin-left: -350px; /* Half of the width */
 }
 
 .post {
-	margin-top: 120px;
+	margin-top: 170px;
 	width: 400px;
 	height: 200px;
 	background-color: white;
