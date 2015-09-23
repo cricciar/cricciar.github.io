@@ -1,0 +1,194 @@
+html, body { padding: 0; margin: 0; }
+
+/* position fixed allows blocks to scroll with page, position absolute 
+keep block in absolute position. position relative works in combination 
+with position absolute to position an element within another element.
+Always remember that you can dicate left, top, right, and bottom position.
+Also, display inline allows for responsive column and block design. */
+
+/*please update */
+
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.posts {
+    position: absolute;
+    d
+    width: 79%;
+    margin-left: 220px;
+    background: white;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0px;
+    padding-top: 50px;
+}
+
+.posts h2 {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+code {
+    color: #1e75ce;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    display: inline-box;
+}
+
+.sidebar {
+    width: 205px;
+    margin-top: 0px;
+    background: #3f94ec;
+    color: white;
+    position: fixed;
+    left: 0px;
+    padding-left: 15px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    height: 550px ;
+}
+
+
+.sidebar h1 {
+    margin: -15px 0px 0px -15px;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 13px 4px 15px 14px;
+    background-color: #1e75ce;
+}
+
+
+.sidebar small {
+    color: white;
+}
+
+
+.post-date {
+    padding-top: 5px;
+    font-size: 10px;
+}
+
+.posts h1 {
+    display: block;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    border-color: white;
+    background: #65a9ef;
+    color: white;
+    margin-left: -15px;
+    margin-top: -52px;
+    position: fixed;
+    width: 100%;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.posts .m {
+    color: blue;
+    font-weight: normal;
+}
+
+.highlight code {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.highlight {
+    color: black;
+    display: block;
+    background-color: #e8f0f9;
+    padding-top: 3px;
+    width: 350px;
+    border: solid;
+    border-color: white;
+    border-width: 15px;
+    border-left-width: 0px;
+}
+
+.post-date {
+    margin: 0px;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    font-size: 20px;
+}
+
+
+a {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: white;
+}
+
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #65a9ef;
+    display: block;
+    margin-left: -16px;
+    padding-left: 16px;
+}
+
+
+a:active {
+    display: block;
+    color: white;
+    background-color: #1e75ce;
+}
+
+
+small {
+    margin-top: 10px;
+    margin: 0;
+    padding-top: 0px;
+    font-size: 10;
+    color: grey;
+}
+
+
+ul {
+    font-weight: thin;
+    font-size: 13px;
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+li {
+    list-style: none;
+    margin-left: 0;
+    padding: 0;
+    color: white;
+    padding-top: 5;
+    margin: 0;
+}
+
