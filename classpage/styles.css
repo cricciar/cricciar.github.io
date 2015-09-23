@@ -12,19 +12,20 @@ Also, display inline allows for responsive column and block design. */
 body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: white;
-    margin: 0;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .posts {
-    position: inherit;
-    margin-top: 0px;
-    padding-top: 0px;
+    position: absolute;
+    d
     width: 79%;
-    margin-left: 22.5%;
+    margin-left: 220px;
     background: white;
     color: black;
     padding-left: 15px;
     padding-right: 15px;
+    margin-top: 0px;
 }
 
 .posts h2 {
@@ -40,8 +41,8 @@ code {
 }
 
 .sidebar {
-    width: 21%;
-    margin-top: -25px;
+    width: 205px;
+    margin-top: 0px;
     background: #3f94ec;
     color: white;
     position: fixed;
@@ -51,12 +52,11 @@ code {
     padding-bottom: 0px;
     padding-top: 15px;
     height: 550px ;
-    margin-top: -75px;
 }
 
 
 .sidebar h1 {
-    margin: 10px 0px 0px -14px;
+    margin: -13px 0px 0px -14px;
     font-size: 30px;
     font-weight: normal;
     padding: 13px 4px 15px 14px;
@@ -75,14 +75,14 @@ code {
 }
 
 .posts h1 {
-    padding-left: 30px;
-    padding-top: 22px;
-    padding-bottom: 14px;
+    display: block;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 13px;
     border-color: white;
     background: #65a9ef;
     color: white;
     margin-left: -15px;
-    margin-top: -55px;
     position: fixed;
     width: 100%;
     font-weight: normal;
@@ -113,11 +113,6 @@ code {
     border-left-width: 0px;
 }
 
-
-.posts {
-    margin-top: 50px
-}
-
 .post-date {
     margin: 0px;
     color: white;
@@ -125,7 +120,6 @@ code {
 
 h1 {
     margin: 0;
-    
 }
 
 h2 {
