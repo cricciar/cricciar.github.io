@@ -6,6 +6,7 @@
 body {
 	margin: 0 0 0 0;
 	background-color: white;
+	padding: 70px;
 }
 
 .background {
@@ -20,9 +21,6 @@ body {
 	width: auto;
 	max-width: 100%;
 	background-image: url("../Image.gif");
-	border: solid;
-	border-color: white;
-	border-width: 50px;
 }
 
 .post {
