@@ -57,7 +57,7 @@ code {
 
 
 .sidebar h1 {
-    margin: -13px 0px 0px -14px;
+    margin: -15px 0px 0px -15px;
     font-size: 30px;
     font-weight: normal;
     padding: 13px 4px 15px 14px;
@@ -84,7 +84,7 @@ code {
     background: #65a9ef;
     color: white;
     margin-left: -15px;
-    margin-top: -50px;
+    margin-top: -52px;
     position: fixed;
     width: 100%;
     font-weight: normal;
