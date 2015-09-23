@@ -8,10 +8,6 @@ Also, display inline allows for responsive column and block design. */
 
 /*please update */
 
-.viewport {
-    zoom: 1.0;
-    width: extend-to-zoom;
-}
 
 body {
     font-family: Helvetica, Arial, sans-serif;
@@ -20,11 +16,11 @@ body {
 }
 
 .posts {
-    float: right;
+    position: inherit;
     margin-top: 0px;
     padding-top: 0px;
-    width: 75%;
-    margin-left: 205px;
+    width: 79%;
+    margin-left: 22.5%;
     background: white;
     color: black;
     padding-left: 15px;
@@ -44,7 +40,7 @@ code {
 }
 
 .sidebar {
-    width:205px;
+    width: 21%;
     margin-top: -25px;
     background: #3f94ec;
     color: white;
@@ -55,6 +51,7 @@ code {
     padding-bottom: 0px;
     padding-top: 15px;
     height: 550px ;
+    margin-top: -75px;
 }
 
 
