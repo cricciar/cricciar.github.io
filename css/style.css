@@ -9,37 +9,43 @@ body {
 }
 
 .background {
-	position: fixed;
-	margin-top: 50px;
+	d
+	position: absolute;
+	margin: auto;
 	background-color: white;
 	background-position: center;
-	height: 440px;
-	width: 700px;
+	height: 100%;
+	width: auto;
+	max-width: 100%;
 	background-image: url("../Image.gif");
-	left: 50%;
-	margin-left: -350px; /* Half of the width */
+	border: solid;
+	border-color: white;
+	border-width: 50px;
 }
 
 .post {
-	margin-top: 170px;
-	width: 400px;
-	height: 200px;
+	margin: auto;
+	width: 50%;
+	max-width: 300px;
+	height: 50%;
+	max-height: 300px;
 	background-color: white;
 	font-family: Helvetica, Arial, sans-serif;
 	font-style: normal;
-	position: fixed;
+	position: absolute;
 	z-index: 1000;
-	left: 50%;
-	margin-left: -200px; /* Half of the width */
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
 	box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.2);
 }
 
 h1{
-	padding-top: 40;	
-	padding-left: 40;
-	padding-right: 40;
-	padding-bottom: 20;
 	margin: auto;
+	padding-top: 40px;
+	width: 90%;
+	height: 40%;
 	letter-spacing: 3px;
 	font-size: 30;
 	font-weight: lighter;
@@ -51,6 +57,9 @@ h1{
 }
 
 ul{
+	height: 50%;
+	width: 100%;
+	margin-left: -20px;
 	font-size: 15;
 	font-weight: lighter ;
 	list-style: none;
@@ -58,11 +67,11 @@ ul{
     text-align: center;
     line-height: 25px;
     letter-spacing: 1px;
-	
 }
 
 li {
-	margin-left: -50px;
+	margin-left: -20;
+	width: 100%;
 }
 
 .special {
@@ -76,7 +85,6 @@ li {
 
 a{
 	top: 10px;
-	margin-left: 5px;
 	color: black;
 	text-decoration: none;
 	font-style: normal;
@@ -92,10 +100,8 @@ a:visited{
 a:hover{
 	color: white;
 	background-color: black;
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-top: 3px;
-	padding-bottom: 3px;
+	display: block;
+
 
 }
 
