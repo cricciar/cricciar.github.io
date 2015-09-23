@@ -1,0 +1,149 @@
+html, body { padding: 0; margin: 0; }
+
+/* position fixed allows blocks to scroll with page, position absolute 
+keep block in absolute position. position relative works in combination 
+with position absolute to position an element within another element.
+Always remember that you can dicate left, top, right, and bottom position.
+Also, display inline allows for responsive column and block design. */
+
+
+
+html, body {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    padding: 5px;
+    font-weight: thin;
+}
+
+.posts {
+    position: relative;
+    top: 10;
+    left: 250px;
+    width:600px;
+    margin:0;
+    background: white;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+
+
+.sidebar {
+    width:230px;
+    margin:  0 auto;
+    background: #242424;
+    color: white;
+    position: fixed;
+    left: 0px;
+    padding-left: 15px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    min-height: 100%;
+    height: auto ;
+}
+
+
+.post-date {
+    padding-top: 5px;
+    font-size: 10px;
+}
+
+.posts h1 {
+    border: solid;
+    padding-left: 5px;
+}
+
+
+.sidebar h1 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+post-date {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    
+}
+
+h2 {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    font-size: 20px;
+}
+
+
+a {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: #7bbcff;
+}
+
+
+a:hover {
+    color: #7bbcff;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+a:active {
+    font-size: 30px;
+    color: #7bbcff;
+}
+
+
+p {
+    margin: 0;
+}
+
+
+small {
+    margin-top: 10px;
+    margin: 0;
+    padding-top: 0px;
+    font-size: 10;
+    color: grey;
+}
+
+
+ul {
+    font-weight: thin;
+    font-size: 13px;
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+li {
+    list-style: none;
+    margin-left: 0;
+    padding: 0;
+    color: white;
+    padding-top: 5;
+    margin: 0;
+}
