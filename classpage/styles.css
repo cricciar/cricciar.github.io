@@ -93,8 +93,9 @@ code {
     width: 100%;
     font-weight: normal;
     font-size: 28px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
     z-index: 1;
+    opacity: 50;
 }
 
 .posts .m {
@@ -124,10 +125,6 @@ code {
 .post-date {
     margin: 0px;
     color: white;
-}
-
-h1 {
-    margin: 0;
 }
 
 h2 {
