@@ -8,6 +8,11 @@ Also, display inline allows for responsive column and block design. */
 
 /*please update */
 
+.viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
 body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: white;
@@ -15,14 +20,15 @@ body {
 }
 
 .posts {
-    position: absolute;
+    float: right;
     margin-top: 0px;
-    margin-left: 250px;
     padding-top: 0px;
-    width: 700px;
+    width: 75%;
+    margin-left: 205px;
     background: white;
     color: black;
-    padding-left: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .posts h2 {
@@ -38,7 +44,7 @@ code {
 }
 
 .sidebar {
-    width:210px;
+    width:205px;
     margin-top: -25px;
     background: #3f94ec;
     color: white;
@@ -78,7 +84,7 @@ code {
     border-color: white;
     background: #65a9ef;
     color: white;
-    margin-left: -25px;
+    margin-left: -15px;
     margin-top: -55px;
     position: fixed;
     width: 100%;

@@ -6,51 +6,63 @@ with position absolute to position an element within another element.
 Always remember that you can dicate left, top, right, and bottom position.
 Also, display inline allows for responsive column and block design. */
 
-
-
-html, body {
-  height: 100%;
-
-  display: flex;
-  flex-direction: column;
-}
-
+/*please update */
 
 body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: white;
     margin: 0;
-    padding: 0;
-    padding: 5px;
-    font-weight: thin;
 }
 
 .posts {
-    position: relative;
-    top: 10;
-    left: 250px;
-    width:600px;
-    margin:0;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 250px;
+    padding-top: 0px;
+    width: 700px;
     background: white;
-    font-style: normal;
     color: black;
-    text-decoration: none;
+    padding-left: 0px;
 }
 
+.posts h2 {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+code {
+    color: #1e75ce;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    display: inline-box;
+}
 
 .sidebar {
-    width:230px;
-    margin:  0 auto;
-    background: #242424;
+    width:210px;
+    margin-top: -25px;
+    background: #3f94ec;
     color: white;
     position: fixed;
     left: 0px;
     padding-left: 15px;
     padding-right: 0px;
-    padding-bottom: 15px;
-    padding-top: 10px;
-    min-height: 100%;
-    height: auto ;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    height: 550px ;
+}
+
+
+.sidebar h1 {
+    margin: 10px 0px 0px -14px;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 13px 4px 15px 14px;
+    background-color: #1e75ce;
+}
+
+
+.sidebar small {
+    color: white;
 }
 
 
@@ -60,18 +72,52 @@ body {
 }
 
 .posts h1 {
-    border: solid;
-    padding-left: 5px;
+    padding-left: 30px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    border-color: white;
+    background: #65a9ef;
+    color: white;
+    margin-left: -25px;
+    margin-top: -55px;
+    position: fixed;
+    width: 100%;
+    font-weight: normal;
+    font-size: 28px;
 }
 
-
-.sidebar h1 {
-    font-size: 30px;
+.posts .m {
+    color: blue;
     font-weight: normal;
 }
 
-post-date {
-    margin: 0;
+.highlight code {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.highlight {
+    color: black;
+    display: block;
+    background-color: #e8f0f9;
+    padding-top: 3px;
+    width: 350px;
+    border: solid;
+    border-color: white;
+    border-width: 15px;
+    border-left-width: 0px;
+}
+
+
+.posts {
+    margin-top: 50px
+}
+
+.post-date {
+    margin: 0px;
+    color: white;
 }
 
 h1 {
@@ -95,25 +141,24 @@ a {
 
 
 a:visited {
-    color: #7bbcff;
+    color: white;
 }
 
 
 a:hover {
-    color: #7bbcff;
-    font-style: normal;
-    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: #65a9ef;
+    display: block;
+    margin-left: -16px;
+    padding-left: 16px;
 }
 
 
 a:active {
-    font-size: 30px;
-    color: #7bbcff;
-}
-
-
-p {
-    margin: 0;
+    display: block;
+    color: white;
+    background-color: #1e75ce;
 }
 
 
@@ -147,3 +192,4 @@ li {
     padding-top: 5;
     margin: 0;
 }
+
