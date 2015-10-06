@@ -27,5 +27,10 @@ If the user has activated the button, toggle the visibility of id "cat" to revea
 */
 
 
-10 == 10
+function go (){
+    alert('hi');
+    alert('hey there');
+    
+}
+
 
