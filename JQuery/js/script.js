@@ -26,12 +26,38 @@ If the user has activated the button, toggle the visibility of id "cat" to revea
 
 */
 
-
-<script>
-
-$('input[type="toggle"]').click(function(){
-         $(this).toggleClass('#status.activated');
-     })
-});
-    
-</script>
+         $("#pirate").hide();
+         
+         $("body").addClass("gradient");
+         
+         var clicked = false;
+         
+         $("#toggle").click(function() {
+             
+             if (clicked == false) {
+             
+             $("#status").html("GO");
+             $("#status").css("background-color","green");
+             $("#toggle").html("Stop");
+             $("#status").mouseover(function() {
+             $("#pirate").show();
+         });
+         $("#status").mouseout(function() {
+             $("#pirate").hide();
+         });
+         
+             $("#cat").show();
+             clicked = true;
+             } else { 
+             
+              $("#status").html("STOP");
+             $("#status").css("background-color","red");
+             $("#toggle").html("Start");
+             $("#status").mouseover(function() {
+             $("#pirate").hide();
+         });
+             $("#cat").hide();
+             clicked = false; 
+             }
+             
+         });
