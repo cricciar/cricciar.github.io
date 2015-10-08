@@ -42,9 +42,12 @@ If the user has activated the button, toggle the visibility of id "cat" to revea
              $("#status").mouseover(function() {
              $("#pirate").show();
          });
+         
+         
          $("#status").mouseout(function() {
              $("#pirate").hide();
          });
+         
          
              $("#cat").show();
              clicked = true;
@@ -56,8 +59,11 @@ If the user has activated the button, toggle the visibility of id "cat" to revea
              $("#status").mouseover(function() {
              $("#pirate").hide();
          });
-             $("#cat").hide();
+         
+         
+             $("#cat").hide() ;
              clicked = false; 
              }
              
          });
+         
