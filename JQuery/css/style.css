@@ -37,6 +37,11 @@ body, html {
 	right: 20px;
 }
 
+#status.activated {
+	background-color: green;
+	
+}
+
 #cat {
 	position: fixed;
 	bottom: 20px;

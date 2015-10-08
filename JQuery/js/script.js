@@ -27,10 +27,11 @@ If the user has activated the button, toggle the visibility of id "cat" to revea
 */
 
 
-function go (){
-    alert('hi');
-    alert('hey there');
+<script>
+
+$('input[type="toggle"]').click(function(){
+         $(this).toggleClass('#status.activated');
+     })
+});
     
-}
-
-
+</script>
