@@ -2,12 +2,6 @@ body, html {
   font-family: Arial, sans-serif;
   height: 100%;
   overflow: hidden;
-	background-image: -ms-linear-gradient(top, #FFFFFF 0%, #00A3EF 100%);
-	background-image: -moz-linear-gradient(top, #FFFFFF 0%, #00A3EF 100%);
-	background-image: -o-linear-gradient(top, #FFFFFF 0%, #00A3EF 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #00A3EF));
-	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #00A3EF 100%);
-	background-image: linear-gradient(to bottom, #FFFFFF 0%, #00A3EF 100%);
 }
 
 .gradient {
@@ -37,10 +31,6 @@ body, html {
 	right: 20px;
 }
 
-#status.activated {
-	background-color: green;
-	
-}
 
 #cat {
 	position: fixed;
