@@ -53,7 +53,7 @@ If the user has activated the button, toggle the visibility of id "cat" to revea
              clicked = true ;
              } else { 
              
-              $("#status").html("STOP") ;
+             $("#status").html("STOP") ;
              $("#status").css("background-color","red") ;
              $("#toggle").html("Start") ;
              $("#status").mouseover(function() {
