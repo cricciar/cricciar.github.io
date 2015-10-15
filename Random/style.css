@@ -1,10 +1,20 @@
-body {
-	margin: 0 0 0 0;
-	background-color: black;
-	padding: 7%;
+html { 
+  background-image: url(http://cricciar.github.io/Random/img/Image2.png); 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.toggle {
+body {
+	margin: 0 0 0 0;
+
+}
+
+.click {
 	position: fixed;
 	margin: auto;
 	width: 50%;
@@ -24,26 +34,17 @@ body {
 	box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.2);
 	font-size: 50px ;
 	color: black;
-
-}
-
-
-
-.images {
-/* fill background */
-  min-height: 100%;
-  min-width: 1024px;
-
-  /* proportionate scaling */
-  width: 100%;
-  height: auto;
-
-  /* positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
+	border-radius: 1%;
+	border: 0px;
 	
+
 }
+
+.click:hover {
+	background-color: black;
+	color: white;
+}
+
 
 .circle { 
     border-radius:50%;

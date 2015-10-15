@@ -1,23 +1,12 @@
 //begin
 
-var random_images = ["Image1.png", "Image2.png", "Image3.png", "Image4.png", "Image5.png"];
+var images = ["http://cricciar.github.io/Random/img/Image1.png","http://cricciar.github.io/Random/img/Image2.png","http://cricciar.github.io/Random/img/Image3.png", "http://cricciar.github.io/Random/img/Image4.png", "http://cricciar.github.io/Random/img/Image5.png"];
 
-//randomize images
-
-$(".toggle").click(function() {
-    
-var randomimg = random_images[Math.floor(Math.random()*random_images.length)];
-
-
-$(".images").html("<img src='img/"+ randomimg + "'>")
-$(".images").html("<img src='img/"+ randomimg + "'>")
-$(".images").html("<img src='img/"+ randomimg + "'>")
-$(".images").html("<img src='img/"+ randomimg + "'>")
-$(".images").html("<img src='img/"+ randomimg + "'>")
-
-
+$("button").click(function() {
+    var newImg = images[Math.floor(Math.random()*images.length)];
+    var newBg = "url(" + newImg + ")";
+$("html").css("background-image",newBg);
 });
-
 
 //circles
 
