@@ -1,6 +1,7 @@
 body {
-background-color: black;
-
+	margin: 0 0 0 0;
+	background-color: black;
+	padding: 7%;
 }
 
 .toggle {
@@ -15,7 +16,7 @@ background-color: black;
 	background-color: white;
 	font-family: Helvetica, Arial, sans-serif;
 	font-style: normal;
-	z-index: 1000;
+	z-index: 10;
 	left: 0;
 	right: 0;
 	top: 0;
@@ -29,16 +30,18 @@ background-color: black;
 
 
 .images {
-max-width: 100%;
-    max-height: 100%;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    overflow: auto;
-    position: fixed;
-    right: 0;
-    top: 0;
-	z-index: -1;
+/* fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
 	
 }
 
