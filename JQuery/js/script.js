@@ -24,7 +24,7 @@ Now that we have stored the status of our button, let's show the user an image i
 
 If the user has activated the button, toggle the visibility of id "cat" to reveal our animated leopard.
 
-NOTES: (this) targets what you clicked on and nothing else.  
+NOTES: (this) targets what you clicked on and nothing else. 
 
 */
 
@@ -42,7 +42,6 @@ NOTES: (this) targets what you clicked on and nothing else.
              $("#status").css("background-color","green") ;
              $(this).html("Stop") ;
              $("#status").mouseover(function() {
-             $("#pirate").show() ;
          });
          
          
@@ -52,13 +51,13 @@ NOTES: (this) targets what you clicked on and nothing else.
          
              $("#cat").show() ;
              clicked = true ;
+             
              } else { 
              
              $("#status").html("STOP") ;
              $("#status").css("background-color","red") ;
              $("#toggle").html("Start") ;
              $("#status").mouseover(function() {
-             $("#pirate").hide() ;
          });
          
          
