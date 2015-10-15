@@ -5,11 +5,8 @@ background-color: black;
 
 .toggle {
 	position: fixed;
-	top: 50%;
-	left: 50%;
-	right: 50%;
-	margin-top: -15%;
-	margin-left: -18%;
+	margin-top: 150px;
+	margin-left: 250px;
 	height: 200px;
 	width: 250px;
 	background-color: white;
@@ -22,6 +19,6 @@ background-color: black;
 
 .images {
 	margin-left: 5px;
-	width: 500px;
-
+	max-width: 750px;
+	
 }
