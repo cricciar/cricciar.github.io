@@ -1,18 +1,68 @@
 
 html, body { padding: 0; margin: 0; }
 
+html { 
+  background-image: url(http://www.bustler.net/images/news2/james_turrell_guggenheim_01.jpg); 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 .header {
     font-family: Verlag, Helvetica, Gotham, Arial, sans-serif;
     font-size: 35px;
     font-variant: normal;
     text-align: center;
-    color: black;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: white;
     display: block;
     position: fixed;
     text-decoration: none;
     top: 0px;
     width: 100%;
-    
-    
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+	width: 600px;
+	max-width: 700px;
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.click {
+	margin: auto;
+	width: 100%;
+	background-color: black;
+	font-family: Verlag, Helvetica, Arial, sans-serif;
+	font-style: normal;
+	z-index: 10;
+	font-size: 40px ;
+	letter-spacing: 5px;
+	color: white;
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    opacity: 0.7;
+    border-radius: 3%;
+	border: 0px;
 }
