@@ -1,5 +1,6 @@
 html {
       background-image: url(http://gdurl.com/CXsR); 
+      object-fit: cover;
       z-index: -50;
 
 }
