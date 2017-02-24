@@ -74,21 +74,20 @@ a:visited {
   -o-background-size: cover;
   background-size: cover;
   position: relative;
+  background-color: black;
 }
 
 .block1 img {
   width: 100%;
   height: auto;
   top: 0px;
-  position: relative;
+  position: fixed;
   margin-top: 0px;
   z-index: 0;
   opacity: 1;
   text-decoration: none;
   pointer-events:none;
-  z-index: 0;
-  opacity: 1;
-  position: fixed;
+  background-color: black;
 }
 
 .work h3 {
