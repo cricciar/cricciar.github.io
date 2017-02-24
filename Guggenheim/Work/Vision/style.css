@@ -91,7 +91,7 @@ a:visited {
     top: 30px;
     left: 0px;
     width: 250px;
-    text-shadow: 0px 0px 100px rgba(0, 0, 0, 0.4);
+    text-shadow: 0px 0px 60px rgba(0, 0, 0, 0.6);
     z-index: 1;
     opacity: .7;
     
@@ -101,14 +101,15 @@ a:visited {
     display: block;
     color: white;
     text-align: center;
-	text-shadow: 0px 0px 100px rgba(0, 0, 0, 1);
+	text-shadow: 0px 0px 40px rgba(0, 0, 0, .8);
 	opacity: 1;
     
 }
 
 .block2 { 
+    position: static;
     width: 100%;
-    height: 18em;
+    height: auto;
     margin-top: -150px;
     font-family: Helvetica, Gotham, Arial, sans-serif;
     font-size: 35px;
@@ -119,10 +120,10 @@ a:visited {
     text-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
     color: white;
     background-color: rgba(000, 155, 558, 0.0);
-    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.8);
     border: none;
     z-index: -1;
-    background-color: white;
+    background-color: black;
+    pointer-events:none;
 }
 
 .block2 h4 {
@@ -168,7 +169,6 @@ a:visited {
 
 .block2 img {
   width: 100%;
-  height: 100%;
   min-height: 100%;
   top: 0px;
   background-repeat: no-repeat;
@@ -182,8 +182,9 @@ a:visited {
   position: relative;
   margin-top: 0px;
   z-index: 0;
-  opacity: .8;
-  text-decoration: none:
+  opacity: 1;
+  text-decoration: none;
+  pointer-events:none;
 }
 
 .block2 img:hover {
@@ -191,8 +192,9 @@ a:visited {
 }
 
 .block3 { 
+    position: static;
     width: 100%;
-    height: 15em;
+    height: auto;
     margin-top: 0px;
     font-family: Verlag, Helvetica, Gotham, Arial, sans-serif;
     font-size: 35px;
@@ -203,7 +205,6 @@ a:visited {
     text-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
     color: white;
     background-color: rgba(000, 155, 558, 0.0);
-    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.8);
     border: none;
     z-index: 1;
     background: rgba(100, 100, 300, 0.7);
@@ -253,7 +254,7 @@ a:visited {
 
 .block3 img {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   top: 0px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -266,8 +267,8 @@ a:visited {
   position: relative;
   margin-top: 0px;
   z-index: 0;
-  opacity: .8;
-  text-decoration: none:
+  opacity: 1;
+  text-decoration: none;
 }
 
 .block3 img:hover {
@@ -275,8 +276,9 @@ a:visited {
 }
 
 .block4 { 
+    position: static;
     width: 100%;
-    height: 15em;
+    height: auto;
     margin-top: 0px;
     font-family: Verlag, Helvetica, Gotham, Arial, sans-serif;
     font-size: 35px;
@@ -287,7 +289,6 @@ a:visited {
     text-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
     color: white;
     background-color: rgba(000, 155, 558, 0.0);
-    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.8);
     border: none;
     z-index: 1;
     background: rgba(100, 400, 100, .7);
@@ -337,7 +338,7 @@ a:visited {
 
 .block4 img {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   top: 0px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -350,8 +351,8 @@ a:visited {
   position: relative;
   margin-top: 0px;
   z-index: 0;
-  opacity: .85;
-  text-decoration: none:
+  opacity: 1;
+  text-decoration: none;
 }
 
 .block4 img:hover {
@@ -359,8 +360,9 @@ a:visited {
 }
 
 .block5 { 
+     position: static;
     width: 100%;
-    height: 15em;
+    height: auto;
     margin-top: 0px;
     font-family: Verlag, Helvetica, Gotham, Arial, sans-serif;
     font-size: 35px;
@@ -371,7 +373,6 @@ a:visited {
     text-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
     color: white;
     background-color: rgba(000, 155, 558, 0.0);
-    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.8);
     border: none;
     z-index: 1;
     background: rgba(100, 400, 100, .7);
@@ -421,7 +422,7 @@ a:visited {
 
 .block5 img {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   top: 0px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -434,8 +435,8 @@ a:visited {
   position: relative;
   margin-top: 0px;
   z-index: 0;
-  opacity: .85;
-  text-decoration: none:
+  opacity: 1;
+  text-decoration: none;
 }
 
 .block5 img:hover {
@@ -443,8 +444,9 @@ a:visited {
 }
 
 .block6 { 
+    position: static;
     width: 100%;
-    height: 15em;
+    height: auto;
     margin-top: 0px;
     font-family: Verlag, Helvetica, Gotham, Arial, sans-serif;
     font-size: 35px;
@@ -455,7 +457,6 @@ a:visited {
     text-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
     color: white;
     background-color: rgba(000, 155, 558, 0.0);
-    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.8);
     border: none;
     z-index: 1;
     background: rgba(100, 400, 100, .7);
@@ -505,7 +506,7 @@ a:visited {
 
 .block6 img {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   top: 0px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -518,8 +519,8 @@ a:visited {
   position: relative;
   margin-top: 0px;
   z-index: 0;
-  opacity: .85;
-  text-decoration: none:
+  opacity: 1;
+  text-decoration: none;
 }
 
 .block6 img:hover {
@@ -527,8 +528,9 @@ a:visited {
 }
 
 .block7 { 
+      position: static;
     width: 100%;
-    height: 15em;
+    height: auto;
     margin-top: 0px;
     font-family: Verlag, Helvetica, Gotham, Arial, sans-serif;
     font-size: 35px;
@@ -539,10 +541,9 @@ a:visited {
     text-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
     color: white;
     background-color: rgba(000, 155, 558, 0.0);
-    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.8);
     border: none;
     z-index: 1;
-    background: rgba(100, 400, 100, .7);
+    background: rgba(100, 400, 100, 0);
 }
 
 
@@ -589,7 +590,7 @@ a:visited {
 
 .block7 img {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   top: 0px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -602,8 +603,8 @@ a:visited {
   position: relative;
   margin-top: 0px;
   z-index: 0;
-  opacity: .85;
-  text-decoration: none:
+  opacity: 1;
+  text-decoration: none;
 }
 
 .block7 img:hover {
