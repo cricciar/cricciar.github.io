@@ -171,14 +171,6 @@ a:visited {
   width: 100%;
   min-height: 100%;
   top: 0px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  object-fit: cover;
   position: relative;
   margin-top: 0px;
   z-index: 0;
@@ -340,14 +332,6 @@ a:visited {
   width: 100%;
   min-height: 100%;
   top: 0px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  object-fit: cover;
   position: relative;
   margin-top: 0px;
   z-index: 0;
@@ -424,14 +408,6 @@ a:visited {
   width: 100%;
   min-height: 100%;
   top: 0px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  object-fit: cover;
   position: relative;
   margin-top: 0px;
   z-index: 0;
@@ -508,14 +484,6 @@ a:visited {
   width: 100%;
   min-height: 100%;
   top: 0px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  object-fit: cover;
   position: relative;
   margin-top: 0px;
   z-index: 0;
@@ -528,7 +496,7 @@ a:visited {
 }
 
 .block7 { 
-      position: static;
+    position: static;
     width: 100%;
     height: auto;
     margin-top: 0px;
@@ -592,14 +560,6 @@ a:visited {
   width: 100%;
   min-height: 100%;
   top: 0px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  object-fit: cover;
   position: relative;
   margin-top: 0px;
   z-index: 0;
