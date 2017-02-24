@@ -1,5 +1,4 @@
 html {
-      background-image: url(http://artnews.org/files/0000081000/0000080204.jpg/James_Turrell.jpg); 
       z-index: -50;
 
 }
@@ -77,6 +76,21 @@ a:visited {
   position: relative;
 }
 
+.block1 img {
+  width: 100%;
+  height: auto;
+  top: 0px;
+  position: relative;
+  margin-top: 0px;
+  z-index: 0;
+  opacity: 1;
+  text-decoration: none;
+  pointer-events:none;
+  z-index: 0;
+  opacity: 1;
+  position: fixed;
+}
+
 .work h3 {
     font-family: Helvetica, Gotham, Arial, sans-serif;
     font-size: 30px;
@@ -110,7 +124,7 @@ a:visited {
     position: static;
     width: 100%;
     height: auto;
-    margin-top: -150px;
+    margin-top: 0px;
     font-family: Helvetica, Gotham, Arial, sans-serif;
     font-size: 35px;
     font-variant: normal;
@@ -118,53 +132,11 @@ a:visited {
     letter-spacing: 7px;
     text-transform: uppercase;
     text-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
-    color: white;
-    background-color: rgba(000, 155, 558, 0.0);
     border: none;
-    z-index: -1;
-    background-color: black;
-    pointer-events:none;
-}
-
-.block2 h4 {
-    position: relative;
-    display: block;
-    border: solid;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
-    top: -300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    height: 50px;
-    width: 250px;
-    text-align: center;
-    border-radius: 5em;
-    font-family: Helvetica, Gotham, Arial, sans-serif;
-    font-size: 30px;
-    opacity: .9;
     z-index: 0;
-}
-
-.block2 h4:hover {
-    position: relative;
-    display: block;
-    border: solid;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
-    top: -300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    height: 50px;
-    width: 250px;
-    text-align: center;
-    border-radius: 5em;
-    font-family: Helvetica, Gotham, Arial, sans-serif;
-    font-size: 30px;
-    font-variant: normal;
-    font-style: normal;
-    opacity: .9;
-    background-color: rgba(500, 100, 400, 0.3);
-    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.4);
+    background-color: transparent;
+    pointer-events:none;
+    position: ab;
 }
 
 .block2 img {
@@ -177,6 +149,8 @@ a:visited {
   opacity: 1;
   text-decoration: none;
   pointer-events:none;
+  z-index: 0;
+  opacity: 0
 }
 
 .block2 img:hover {
@@ -187,7 +161,6 @@ a:visited {
     position: static;
     width: 100%;
     height: auto;
-    margin-top: 0px;
     font-family: Verlag, Helvetica, Gotham, Arial, sans-serif;
     font-size: 35px;
     font-variant: normal;
@@ -202,51 +175,9 @@ a:visited {
     background: rgba(100, 100, 300, 0.7);
 }
 
-
-.block3 h4 {
-    position: relative;
-    display: block;
-    border: solid;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
-    top: -300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    height: 50px;
-    width: 250px;
-    text-align: center;
-    border-radius: 5em;
-    font-family: Helvetica, Gotham, Arial, sans-serif;
-    font-size: 30px;
-    opacity: .9;
-    z-index: 0;
-}
-
-.block3 h4:hover {
-    position: relative;
-    display: block;
-    border: solid;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
-    top: -300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    height: 50px;
-    width: 250px;
-    text-align: center;
-    border-radius: 5em;
-    font-family: Helvetica, Gotham, Arial, sans-serif;
-    font-size: 30px;
-    font-variant: normal;
-    font-style: normal;
-    opacity: .9;
-    background-color: rgba(100, 180, 800, 0.6);
-    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.4);
-}
-
 .block3 img {
   width: 100%;
- height: auto;
+  height: auto;
   top: 0px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -287,47 +218,6 @@ a:visited {
 }
 
 
-.block4 h4 {
-    position: relative;
-    display: block;
-    border: solid;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
-    top: -300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    height: 50px;
-    width: 250px;
-    text-align: center;
-    border-radius: 5em;
-    font-family: Helvetica, Gotham, Arial, sans-serif;
-    font-size: 30px;
-    opacity: .9;
-    z-index: 0;
-}
-
-.block4 h4:hover {
-    position: relative;
-    display: block;
-    border: solid;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
-    top: -300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    height: 50px;
-    width: 250px;
-    text-align: center;
-    border-radius: 5em;
-    font-family: Helvetica, Gotham, Arial, sans-serif;
-    font-size: 30px;
-    font-variant: normal;
-    font-style: normal;
-    opacity: .9;
-    background-color: rgba(10, 200, 10, 0.5);
-    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.4);
-}
-
 .block4 img {
   width: 100%;
   height: auto;
@@ -360,48 +250,6 @@ a:visited {
     border: none;
     z-index: 1;
     background: rgba(100, 400, 100, .7);
-}
-
-
-.block5 h4 {
-    position: relative;
-    display: block;
-    border: solid;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
-    top: -300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    height: 50px;
-    width: 350px;
-    text-align: center;
-    border-radius: 5em;
-    font-family: Helvetica, Gotham, Arial, sans-serif;
-    font-size: 30px;
-    opacity: .9;
-    z-index: 0;
-}
-
-.block5 h4:hover {
-    position: relative;
-    display: block;
-    border: solid;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
-    top: -300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    height: 50px;
-    width: 350px;
-    text-align: center;
-    border-radius: 5em;
-    font-family: Helvetica, Gotham, Arial, sans-serif;
-    font-size: 30px;
-    font-variant: normal;
-    font-style: normal;
-    opacity: .9;
-    background-color: rgba(900, 200, 60, 0.5);
-    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.4);
 }
 
 .block5 img {
@@ -438,48 +286,6 @@ a:visited {
     background: rgba(100, 400, 100, .7);
 }
 
-
-.block6 h4 {
-    position: relative;
-    display: block;
-    border: solid;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
-    top: -300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    height: 50px;
-    width: 450px;
-    text-align: center;
-    border-radius: 5em;
-    font-family: Helvetica, Gotham, Arial, sans-serif;
-    font-size: 30px;
-    opacity: .9;
-    z-index: 0;
-}
-
-.block6 h4:hover {
-    position: relative;
-    display: block;
-    border: solid;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
-    top: -300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    height: 50px;
-    width: 450px;
-    text-align: center;
-    border-radius: 5em;
-    font-family: Helvetica, Gotham, Arial, sans-serif;
-    font-size: 30px;
-    font-variant: normal;
-    font-style: normal;
-    opacity: .9;
-    background-color: rgba(400, 50, 100, 0.5);
-    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.4);
-}
-
 .block6 img {
   width: 100%;
  height: auto;
@@ -514,48 +320,6 @@ a:visited {
     background: rgba(100, 400, 100, 0);
 }
 
-
-.block7 h4 {
-    position: relative;
-    display: block;
-    border: solid;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
-    top: -300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    height: 50px;
-    width: 450px;
-    text-align: center;
-    border-radius: 5em;
-    font-family: Helvetica, Gotham, Arial, sans-serif;
-    font-size: 30px;
-    opacity: .9;
-    z-index: 0;
-}
-
-.block7 h4:hover {
-    position: relative;
-    display: block;
-    border: solid;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
-    top: -300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 15px;
-    height: 50px;
-    width: 450px;
-    text-align: center;
-    border-radius: 5em;
-    font-family: Helvetica, Gotham, Arial, sans-serif;
-    font-size: 30px;
-    font-variant: normal;
-    font-style: normal;
-    opacity: .9;
-    background-color: rgba(400, 50, 100, 0.5);
-    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.4);
-}
-
 .block7 img {
   width: 100%;
  height: auto;
@@ -570,3 +334,4 @@ a:visited {
 .block7 img:hover {
     opacity: 1;
 }
+
