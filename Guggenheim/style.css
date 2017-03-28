@@ -42,7 +42,7 @@ iframe {
   -o-background-size: cover;
   background-size: cover;
   position: relative;
-  z-index: -10;
+  z-index: 0;
   overflow: hidden;
  
 }
