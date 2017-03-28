@@ -27,7 +27,7 @@ iframe {
     left: 0;
     width: 100%;
     height: 100%;
-	z-index: 0;
+	z-index: -10;
 	border: none;
 }
 
@@ -42,6 +42,9 @@ iframe {
   -o-background-size: cover;
   background-size: cover;
   position: relative;
+  z-index: -10;
+  overflow: hidden;
+ 
 }
 
 .block1 h2 {
@@ -53,7 +56,7 @@ iframe {
 .block2 { 
     width: 100%;
     height: 100%;
-    margin-top: 20px;
+    margin-top: 0%;
     font-family: Helvetica, Gotham, Arial, sans-serif;
     font-size: 35px;
     font-variant: normal;
