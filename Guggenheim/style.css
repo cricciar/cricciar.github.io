@@ -344,3 +344,23 @@ a:visited {
 .click:click  {
 	transform: translateY(100%);
 }
+
+@media screen and (max-width: 600px) {
+  #iframe {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+    z-index: -150;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #html {
+    background-image: url(http://gdurl.com/CXsR); 
+    object-fit: cover;
+    z-index: -50;
+  }
+}
