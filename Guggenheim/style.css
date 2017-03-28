@@ -29,7 +29,7 @@ iframe {
     height: 100%;
 	z-index: -100;
 	border: none;
-	    background-color: rgba(255,255,255,0);
+	background-color: rgba(255,255,255,0);
 }
 
 .block1 { 
@@ -364,3 +364,9 @@ a:visited {
     z-index: -50;
   }
 }
+
+@media screen and (max-width: 320px){#iframe{display:none;}}
+@media screen and (max-width: 480px){#iframe{display:none;}}
+@media screen and (max-width: 650px){#iframe{display:none;}}
+@media screen and (max-width: 980px){#iframe{display:none;}}
+@media screen and (max-width: 980px){#iframe{display:none;}}
